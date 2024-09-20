@@ -1,6 +1,8 @@
 package com.example.madgroupgit
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +19,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    fun goToLogIn(view: View) {
+        val loginpage = Intent(this,Login::class.java);
+        startActivity(loginpage);
+        //Intent login = new Intent(this, Login.class);
+    }
+
 }
