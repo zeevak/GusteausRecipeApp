@@ -11,5 +11,98 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_log_in"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your username and password"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to login"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="272dp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="335dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="482dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="524dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or sign in with"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="588dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/googleLogo"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="626dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="46dp"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/facebookLogo"
+            tools:layout_editor_absoluteX="194dp"
+            tools:layout_editor_absoluteY="626dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
